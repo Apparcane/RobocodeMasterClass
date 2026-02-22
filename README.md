@@ -16,16 +16,17 @@
 ## 🚀 Быстрый старт
 
 1. **Клонируйте репозиторий:**
-   ```bash
-   git clone git@github.com:Apparcane/RobocodeMasterClass.git
-   cd RobocodeMasterClass
+```bash
+git clone git@github.com:Apparcane/RobocodeMasterClass.git
+cd RobocodeMasterClass
 
 ```
 
 2. **Настройте виртуальное окружение:**
 ```bash
+
 python -m venv .venv
-source .venv/bin/activate  # Для Linux/Arch
+source .venv/bin/activate  # Для Linux
 # .venv\Scripts\activate  # Для Windows
 
 ```
