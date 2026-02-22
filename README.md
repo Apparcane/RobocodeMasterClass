@@ -27,7 +27,7 @@ cd RobocodeMasterClass
 
 python -m venv .venv
 source .venv/bin/activate  # Для Linux
-# .venv\Scripts\activate  # Для Windows
+.venv\Scripts\activate  # Для Windows
 
 ```
 
