@@ -211,3 +211,5 @@ __pycache__/
 *.pyc
 .env
 .python-version
+
+build/
