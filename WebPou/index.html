@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bg.css">
+    <title>Мій Пет</title>
+</head>
+<body>
+
+    <!-- Пишуть самі -->
+    <div class="stats">
+        🍔 Голод: <span id="hunger">100</span><br>
+        😊 Щастя: <span id="happy">100</span>
+    </div>
+    <!-- Пишуть самі -->
+
+    <div id="pet">
+        <!-- сюди вставляемо нашого пета -->
+        <img id="petImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pou_by_Paul_Salameh.svg/1280px-Pou_by_Paul_Salameh.svg.png"> <!-- посилання на картинку тікать сюди -->
+        <div class="eyes">
+            <div class="eye" id="eyeL">
+                <div class="pupil"></div>
+            </div>
+            <div class="eye" id="eyeR">
+                <div class="pupil"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Пишуть самі -->
+    <div class="panel btns">
+        <button onclick="feed()">Нагодувати</button>
+        <button onclick="startGame()">Пограти</button>
+    </div>
+    <!-- Пишуть самі -->
+
+    <!-- Пишуть самі -->
+    <div class="panel">
+        Ліве око X
+        <input type="range" min="-150" max="150" value="0" id="eyeLX">
+        Ліве око Y
+        <input type="range" min="-150" max="150" value="0" id="eyeLY">
+        <br>
+        Праве око X
+        <input type="range" min="-150" max="150" value="0" id="eyeRX">
+        Праве око Y
+        <input type="range" min="-150" max="150" value="0" id="eyeRY">
+    </div>
+    <!-- Пишуть самі -->
+
+    <div id="game"></div>
+
+    <!-- Пишуть самі -->
+    <script src="./engine.js"></script>
+    <script src="./main.js"></script>
+    <!-- Пишуть самі -->
+</body>
+
+</html>

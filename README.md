@@ -10,6 +10,7 @@
 | --- | --- | --- | --- |
 | **Python / AR** | [💥 01 CreeperAR] | Інтерактивний кріпер, що реагує на жести. | ✅ Ready |
 | **Python / AR** | [🧱 02 MinecraftBuilder] | AR-пісочниця для будівництва з блоків. | ✅ Ready |
+| **WEB** | [🐾 Віртуальний улюбленець: Мій Pou] | Власний цифровий вихованець. | ✅ Ready |
 | **Arduino** | *Coming Soon* | Проєкти з робототехніки (C++). | 🛠 In Progress |
 | ⏳ Planned | *Coming Soon* | ⏳ Planned | ⏳ Planned |
 
